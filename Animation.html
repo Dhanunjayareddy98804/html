@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Document</title>
+        <style>
+            div{
+                background-color: green;        
+                width: 20rem;
+                height: 20rem;
+                transition: height 3s ,width 3s;
+                transition-delay: 0s    ;
+                transition-duration: 8s;
+            }
+            div:hover{
+                width: 8rem;
+                height: 8rem;
+            }
+            .timing{
+                transition-timing-function: ease;
+            }
+            .timing1{
+                transition-timing-function: ease-in;
+            }
+            .timing2{
+                transition-timing-function: ease-out;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="timing">
+            <i>hello</i>
+        </div>/.timing1
+        <hr/>
+        <div class="timing1">
+            <i>hello</i>
+        </div>/.timing2
+        <hr/>
+        <div class="timing2">
+            <i>hello</i>
+        </div>
+    </body>
+</html>
